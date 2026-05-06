@@ -107,10 +107,10 @@ const researchModes: QuickLookItem[] = [
     title: "Neuroimaging",
     subtitle: "EEG / fMRI",
     summary:
-      "A recurring focus across Swarnim's research experience: understanding signals from the brain and building tools around complex physiological data.",
+      "A recurring focus in my research experience: understanding signals from the brain and building tools around complex physiological data.",
     details: [
-      "Connected to the IIT Roorkee attention-state work, where EEG signals were processed for predictive modeling.",
-      "Also connects to the Amity University internship on cortical signaling during retinal degeneration."
+      "I worked with EEG signals during my IIT Roorkee attention-state classification project, where I processed neural data for predictive modeling.",
+      "I also explored cortical signaling during my Amity University internship on retinal degeneration and vision restoration."
     ],
     tags: ["EEG", "fMRI", "Signal processing"],
     relatedTerms: ["eeg"],
@@ -122,10 +122,10 @@ const researchModes: QuickLookItem[] = [
     title: "Generative AI",
     subtitle: "LLM frameworks",
     summary:
-      "A practical engineering layer in the portfolio, spanning study-material generation, reasoning models, and LLM-driven workflows.",
+      "A practical engineering layer in my work, spanning study-material generation, reasoning models, and LLM-driven workflows.",
     details: [
-      "Used Python-based LLM frameworks with Gemini reasoning models and OpenAI o1-mini during the MythyaVerse internship.",
-      "Focused on generating age-appropriate study materials, questions, common doubts, and teacher presentations."
+      "I used Python-based LLM frameworks with Gemini reasoning models and OpenAI o1-mini during my MythyaVerse internship.",
+      "I focused on generating age-appropriate study materials, questions, common doubts, and teacher presentations."
     ],
     tags: ["LLM", "Python", "Prompt engineering"],
     relatedTerms: ["llm"],
@@ -137,10 +137,10 @@ const researchModes: QuickLookItem[] = [
     title: "Optical Systems",
     subtitle: "OCT + Spectroscopy",
     summary:
-      "The optics side of the portfolio, covering OCT automation, spectrometer control, and spectroscopy-based characterization.",
+      "The optics side of my work, covering OCT automation, spectrometer control, and spectroscopy-based characterization.",
     details: [
-      "Connected to the IISc internship automating a Cobra 1600 OCT spectrometer for live scans and B-scan acquisition.",
-      "Also connected to the ZnO nanoparticle project using FTIR and UV-Spectroscopy characterization."
+      "I automated a Cobra 1600 OCT spectrometer during my IISc internship for live scans and B-scan acquisition.",
+      "I also used FTIR and UV-Spectroscopy characterization in my ZnO nanoparticle project."
     ],
     tags: ["OCT", "Spectroscopy", "Hardware integration"],
     relatedTerms: ["oct", "ftir"],
@@ -154,10 +154,10 @@ const aboutPillars: QuickLookItem[] = [
     eyebrow: "Research Profile",
     title: "Frontier science",
     summary:
-      "Research problems where scientific curiosity, careful experimentation, and engineering open new ways to understand complex systems.",
+      "I am drawn to research problems where scientific curiosity, careful experimentation, and engineering open new ways to understand complex systems.",
     details: [
-      "This theme appears in neuroscience, optical systems, nanoscience, and machine learning work.",
-      "The portfolio positions Swarnim as a student who can move between scientific questions and practical software systems."
+      "This theme appears across my neuroscience, optical systems, nanoscience, and machine learning work.",
+      "I like moving between scientific questions and practical software systems instead of treating them as separate worlds."
     ],
     tags: ["Scientific curiosity", "Experimentation", "Complex systems"],
     relatedTerms: ["eeg", "oct"],
@@ -168,10 +168,10 @@ const aboutPillars: QuickLookItem[] = [
     eyebrow: "Research Profile",
     title: "Scientific computing",
     summary:
-      "Software that supports discovery: data pipelines, automation tools, signal processing workflows, and research-grade interfaces.",
+      "I like building software that supports discovery: data pipelines, automation tools, signal processing workflows, and research-grade interfaces.",
     details: [
-      "This theme connects directly to OCT automation, EEG signal processing, OCR tooling, and data processing experience.",
-      "It frames software as an instrument for research rather than only as an application layer."
+      "This connects directly to my OCT automation, EEG signal processing, OCR tooling, and data processing experience.",
+      "I see software as an instrument for research, not only as an application layer."
     ],
     tags: ["Automation", "Data pipelines", "Research interfaces"],
     relatedTerms: ["oct", "camera-link", "ocr"],
@@ -182,10 +182,10 @@ const aboutPillars: QuickLookItem[] = [
     eyebrow: "Research Profile",
     title: "LLMs for research",
     summary:
-      "LLMs and generative AI as practical systems for reasoning, learning, analysis, and accelerating scientific workflows.",
+      "I use LLMs and generative AI as practical systems for reasoning, learning, analysis, and accelerating scientific workflows.",
     details: [
-      "This theme is grounded in the MythyaVerse internship and the portfolio's generative AI skills.",
-      "The emphasis is on applied workflows: content generation, reasoning-model evaluation, and structured educational outputs."
+      "This theme is grounded in my MythyaVerse internship and my generative AI skills.",
+      "My emphasis is on applied workflows: content generation, reasoning-model evaluation, and structured educational outputs."
     ],
     tags: ["LLM frameworks", "Reasoning", "Learning systems"],
     relatedTerms: ["llm"],
@@ -196,10 +196,10 @@ const aboutPillars: QuickLookItem[] = [
     eyebrow: "Research Profile",
     title: "Real-world impact",
     summary:
-      "A preference for work that connects mathematical analysis and scientific thought with useful solutions for meaningful real-world problems.",
+      "I prefer work that connects mathematical analysis and scientific thought with useful solutions for meaningful real-world problems.",
     details: [
-      "The portfolio's projects span deployable tools, research automation, and technical analysis.",
-      "This theme helps recruiters and research collaborators understand the common thread across varied domains."
+      "My projects span deployable tools, research automation, and technical analysis.",
+      "This is the common thread I want recruiters and research collaborators to notice across my varied domains."
     ],
     tags: ["Applied research", "Mathematical analysis", "Useful systems"],
     relatedTerms: ["ssim", "psnr"],
@@ -228,10 +228,10 @@ const education: EducationItem[] = [
     score: "CGPA: 8/10",
     marker: "IT + MI",
     summary:
-      "Fourth year undergraduate work in Information Technology and Mathematical Innovation at Cluster Innovation Centre, University of Delhi.",
+      "I am a fourth year undergraduate student in Information Technology and Mathematical Innovation at Cluster Innovation Centre, University of Delhi.",
     details: [
-      "The degree context supports the portfolio's mix of software engineering, mathematics, research, and scientific computing.",
-      "The current academic status is also highlighted in the hero and contact sections."
+      "My degree supports my mix of software engineering, mathematics, research, and scientific computing.",
+      "This is my current academic status, so I keep it visible in the hero and contact sections."
     ],
     tags: ["Information Technology", "Mathematical Innovation", "University of Delhi"],
     relatedTerms: ["llm", "oct", "eeg"],
@@ -245,10 +245,10 @@ const education: EducationItem[] = [
     year: "2022",
     score: "Percentage: 77.4/100",
     marker: "HSC",
-    summary: "Intermediate education completed at Akash Public School in 2022.",
+    summary: "I completed my intermediate education at Akash Public School in 2022.",
     details: [
-      "Listed as part of the academic path leading into the current undergraduate program.",
-      "Presented for quick credential scanning in the education section."
+      "This is part of my academic path leading into my current undergraduate program.",
+      "I keep it concise on the page so visitors can scan my education quickly."
     ],
     tags: ["Intermediate", "Akash Public School", "2022"],
     Icon: GraduationCap
@@ -261,10 +261,10 @@ const education: EducationItem[] = [
     year: "2020",
     score: "Percentage: 93/100",
     marker: "SSC",
-    summary: "Matriculation completed at Oxford Senior Secondary School in 2020.",
+    summary: "I completed my matriculation at Oxford Senior Secondary School in 2020.",
     details: [
-      "Part of the academic foundation shown in the portfolio.",
-      "The education cards remain concise on-page and open richer detail in Quick Look."
+      "This is part of the academic foundation behind my current technical and research work.",
+      "I keep my education cards concise on-page and use Quick Look for richer detail."
     ],
     tags: ["Matriculation", "Oxford Senior Secondary School", "2020"],
     Icon: GraduationCap
@@ -278,11 +278,11 @@ const projects: ProjectItem[] = [
     title: "Image Steganography",
     domain: "Cryptography + Imaging",
     summary:
-      "Hybrid decoding for hidden messages in encoded images using LSB and SSIS algorithms.",
+      "I built a hybrid decoding workflow for hidden messages in encoded images using LSB and SSIS algorithms.",
     details: [
-      "Developed a hybrid decoding method for image steganography using LSB and SSIS algorithms.",
-      "Built familiarity with image processing, cryptography, steganalysis, and quality metrics such as PSNR and SSIM.",
-      "The project successfully extracted hidden messages from encoded images."
+      "I developed a hybrid decoding method for image steganography using LSB and SSIS algorithms.",
+      "I built familiarity with image processing, cryptography, steganalysis, and quality metrics such as PSNR and SSIM.",
+      "I successfully extracted hidden messages from encoded images."
     ],
     tags: ["Cryptography", "Image processing", "Steganalysis"],
     relatedTerms: ["lsb", "ssis", "psnr", "ssim"],
@@ -299,11 +299,11 @@ const projects: ProjectItem[] = [
     title: "Multilingual Optical Character Recognition",
     domain: "OCR + Language Systems",
     summary:
-      "A locally hosted Streamlit OCR app for multiple languages with formatted output and word highlighting.",
+      "I built a locally hosted Streamlit OCR app for multiple languages with formatted output and word highlighting.",
     details: [
-      "Developed and hosted a local Streamlit app that performs OCR in multiple languages including English, Hindi, and Tamil.",
+      "I developed and hosted a local Streamlit app that performs OCR in multiple languages including English, Hindi, and Tamil.",
       "The app returns formatted text as output.",
-      "It can find and highlight a word of interest in the original input file."
+      "I also added the ability to find and highlight a word of interest in the original input file."
     ],
     tags: ["OCR", "Streamlit", "Multilingual"],
     relatedTerms: ["ocr"],
@@ -320,11 +320,11 @@ const projects: ProjectItem[] = [
     title: "Green Synthesis of Zinc Oxide Nanoparticles",
     domain: "Nanoscience + Spectroscopy",
     summary:
-      "Green synthesis, characterization, and interaction studies of ZnO nanoparticles and CT-DNA.",
+      "I learned green synthesis, characterization, and interaction studies of ZnO nanoparticles and CT-DNA.",
     details: [
-      "Learned green synthesis, characterization, and interaction studies of ZnO nanoparticles and CT-DNA.",
-      "Used physiochemical techniques for interaction studies.",
-      "Used FTIR and UV-Spectroscopy characterization techniques."
+      "I learned green synthesis, characterization, and interaction studies of ZnO nanoparticles and CT-DNA.",
+      "I used physiochemical techniques for interaction studies.",
+      "I used FTIR and UV-Spectroscopy characterization techniques."
     ],
     tags: ["Nanoscience", "ZnO nanoparticles", "Spectroscopy"],
     relatedTerms: ["ftir", "ct-dna"],
@@ -347,10 +347,10 @@ const experiences: ExperienceItem[] = [
     duration: "Dec 2025 - 1 mo",
     location: "Shibuya-ku, Tokyo, Japan",
     focus: "Engineering",
-    summary: "Software Engineer Internship at Rimo LLC.",
+    summary: "I worked as a Software Engineer Intern at Rimo LLC.",
     details: [
-      "Listed as a software engineering internship at Rimo LLC.",
-      "The experience is associated with engineering, OpenAI API work, and additional skills."
+      "I contributed in a software engineering internship context at Rimo LLC.",
+      "This experience is associated with engineering, OpenAI API work, and additional technical skills."
     ],
     tags: ["Engineering", "OpenAI API", "Software"],
     relatedTerms: ["llm"],
@@ -371,12 +371,12 @@ const experiences: ExperienceItem[] = [
     location: "Bengaluru, Karnataka, India - On-site",
     focus: "Automation of OCT system",
     summary:
-      "Automation of the Cobra 1600 OCT spectrometer for live scans, B-scan acquisition, visualization, and hardware-software communication.",
+      "I automated the Cobra 1600 OCT spectrometer for live scans, B-scan acquisition, visualization, and hardware-software communication.",
     details: [
-      "Developed Python-, C++-, and MATLAB-based scripts to automate the Cobra 1600 OCT spectrometer for live scans and B-scan acquisition.",
-      "Designed a GUI to visualize spectrograms, axial scans, and intensity profiles.",
-      "Integrated Camera Link hardware-software communication for smoother control.",
-      "Coordinated with vendors, automated data pipelines with real-time validation, and applied optics and spectroscopy principles to improve imaging accuracy."
+      "I developed Python-, C++-, and MATLAB-based scripts to automate the Cobra 1600 OCT spectrometer for live scans and B-scan acquisition.",
+      "I designed a GUI to visualize spectrograms, axial scans, and intensity profiles.",
+      "I integrated Camera Link hardware-software communication for smoother control.",
+      "I coordinated with vendors, automated data pipelines with real-time validation, and applied optics and spectroscopy principles to improve imaging accuracy."
     ],
     tags: ["OCT automation", "Python", "C++", "MATLAB"],
     relatedTerms: ["oct", "camera-link"],
@@ -397,11 +397,11 @@ const experiences: ExperienceItem[] = [
     location: "Delhi, India - Remote",
     focus: "LLM content systems",
     summary:
-      "AI application engineering for education workflows using Python-based LLM frameworks and reasoning models.",
+      "I worked on AI application engineering for education workflows using Python-based LLM frameworks and reasoning models.",
     details: [
-      "Supported edtech consultancy for Extramarks.",
-      "Used Python-based LLM frameworks, Gemini reasoning models, and OpenAI o1-mini to generate age-appropriate study materials.",
-      "Produced topics, questions, common doubts, and creative presentations for students and teachers across CBSE and ICSE contexts."
+      "I supported edtech consultancy for Extramarks.",
+      "I used Python-based LLM frameworks, Gemini reasoning models, and OpenAI o1-mini to generate age-appropriate study materials.",
+      "I produced topics, questions, common doubts, and creative presentations for students and teachers across CBSE and ICSE contexts."
     ],
     tags: ["LLM frameworks", "Python", "EdTech"],
     relatedTerms: ["llm"],
@@ -423,11 +423,11 @@ const experiences: ExperienceItem[] = [
     focus: "EEG attention classification",
     credential: "SwarnimIITCertificate.pdf",
     summary:
-      "Remote research internship using machine learning to classify attention states during meditation from EEG signals.",
+      "I completed a remote research internship using machine learning to classify attention states during meditation from EEG signals.",
     details: [
-      "Worked remotely with Parimal Lab, IIT Roorkee.",
-      "Designed and implemented a machine learning model to analyze EEG signals and classify attention states during meditation.",
-      "The process involved processing a large EEG dataset through artifact removal, extracting relevant features, and applying predictive modeling techniques."
+      "I worked remotely with Parimal Lab, IIT Roorkee.",
+      "I designed and implemented a machine learning model to analyze EEG signals and classify attention states during meditation.",
+      "My process involved processing a large EEG dataset through artifact removal, extracting relevant features, and applying predictive modeling techniques."
     ],
     tags: ["EEG", "Machine learning", "Feature extraction"],
     relatedTerms: ["eeg"],
@@ -449,11 +449,11 @@ const experiences: ExperienceItem[] = [
     focus: "Cortical signaling",
     credential: "Internship_Certificate.pdf",
     summary:
-      "SERB-DST funded internship at AINN focused on cortical signaling during retinal degeneration and implications for vision restoration.",
+      "I completed a SERB-DST funded internship at AINN focused on cortical signaling during retinal degeneration and implications for vision restoration.",
     details: [
-      "Completed a SERB-DST funded internship at AINN.",
-      "Focused on investigating physiological alterations in cortical signaling during retinal degeneration and implications for vision restoration.",
-      "Used EEG and advanced signal processing techniques to analyze cortical signaling."
+      "I completed a SERB-DST funded internship at AINN.",
+      "I focused on investigating physiological alterations in cortical signaling during retinal degeneration and implications for vision restoration.",
+      "I used EEG and advanced signal processing techniques to analyze cortical signaling."
     ],
     tags: ["Neuroscience", "EEG", "Signal processing"],
     relatedTerms: ["eeg"],
@@ -532,10 +532,11 @@ const glossary: GlossaryTerm[] = [
     key: "oct",
     term: "OCT",
     summary:
-      "Optical Coherence Tomography, an imaging technique used to capture depth-resolved optical scans.",
+      "OCT means Optical Coherence Tomography. It is an imaging technique that uses light to capture depth-resolved cross-sectional scans, often for biological or material structures.",
     details: [
-      "In this portfolio, OCT appears in the IISc work automating a Cobra 1600 OCT spectrometer.",
-      "The related workflow included live scans, B-scan acquisition, spectrogram visualization, and intensity profile views."
+      "A simple way to think about it: OCT is like optical ultrasound, but it uses light instead of sound.",
+      "I used OCT in my IISc work, where I automated a Cobra 1600 OCT spectrometer.",
+      "My related workflow included live scans, B-scan acquisition, spectrogram visualization, axial scans, and intensity profile views."
     ],
     related: ["IISc", "Spectroscopy", "Automation"],
     Icon: Radar
@@ -544,10 +545,11 @@ const glossary: GlossaryTerm[] = [
     key: "eeg",
     term: "EEG",
     summary:
-      "Electroencephalography, a method for recording electrical activity from the brain.",
+      "EEG means Electroencephalography. It records electrical activity from the brain using electrodes, usually placed on the scalp.",
     details: [
-      "EEG appears in the IIT Roorkee internship for attention-state classification during meditation.",
-      "It also appears in the Amity University internship focused on cortical signaling and retinal degeneration."
+      "EEG data is useful because it captures fast changes in brain activity over time.",
+      "I used EEG in my IIT Roorkee internship for attention-state classification during meditation.",
+      "I also used EEG-related analysis in my Amity University internship focused on cortical signaling and retinal degeneration."
     ],
     related: ["Neuroimaging", "Signal processing", "Machine learning"],
     Icon: Waves
@@ -556,10 +558,11 @@ const glossary: GlossaryTerm[] = [
     key: "lsb",
     term: "LSB",
     summary:
-      "Least Significant Bit, a common image steganography technique for hiding data in pixel-level information.",
+      "LSB means Least Significant Bit. In image steganography, it hides information by changing the smallest bit of pixel values so the image looks almost unchanged.",
     details: [
-      "The image steganography project used LSB as part of a hybrid decoding method.",
-      "It is connected to hidden message extraction, image processing, and cryptography."
+      "Because the least significant bit has a very small visual effect, it can carry hidden data without obvious changes to the image.",
+      "I used LSB as part of my hybrid image steganography decoding method.",
+      "For me, it connects hidden message extraction, image processing, and cryptography."
     ],
     related: ["Steganography", "Cryptography", "Image processing"],
     Icon: ScanSearch
@@ -568,10 +571,11 @@ const glossary: GlossaryTerm[] = [
     key: "ssis",
     term: "SSIS",
     summary:
-      "A steganography-related algorithm referenced in the image decoding project.",
+      "SSIS is the steganography-related algorithm I referenced alongside LSB in my image decoding project.",
     details: [
-      "The portfolio describes SSIS alongside LSB as part of a hybrid decoding method.",
-      "It is presented in the context of extracting hidden messages from encoded images."
+      "In the project, I treated SSIS as part of a hybrid decoding strategy rather than relying on only one extraction method.",
+      "The practical goal was to improve hidden-message extraction from encoded images.",
+      "It sits in the same project family as LSB, PSNR, SSIM, image decoding, and steganalysis."
     ],
     related: ["Steganography", "LSB", "Image decoding"],
     Icon: ScanSearch
@@ -580,10 +584,11 @@ const glossary: GlossaryTerm[] = [
     key: "ssim",
     term: "SSIM",
     summary:
-      "Structural Similarity Index Measure, a metric used to compare image similarity and quality.",
+      "SSIM means Structural Similarity Index Measure. It compares two images by looking at structural similarity, contrast, and luminance instead of only raw pixel error.",
     details: [
-      "SSIM appears as a steganalysis metric in the image steganography project.",
-      "It is paired with PSNR in the portfolio's description of image-processing evaluation."
+      "A higher SSIM usually means the compared images are visually more similar.",
+      "I used SSIM as a steganalysis and image-quality metric in my image steganography project.",
+      "I paired it with PSNR to evaluate how much an encoded image differed from the original."
     ],
     related: ["Image quality", "Steganalysis", "PSNR"],
     Icon: Eye
@@ -592,10 +597,11 @@ const glossary: GlossaryTerm[] = [
     key: "psnr",
     term: "PSNR",
     summary:
-      "Peak Signal-to-Noise Ratio, an image quality metric used in image processing and analysis.",
+      "PSNR means Peak Signal-to-Noise Ratio. It is an image-quality metric that estimates how much distortion or noise exists between an original image and a processed image.",
     details: [
-      "PSNR appears in the image steganography project as one of the steganalysis metrics.",
-      "It helps frame the project as both decoding work and evaluation work."
+      "In simple terms, a higher PSNR often means less visible distortion.",
+      "I used PSNR in my image steganography project as one of the steganalysis metrics.",
+      "It helped me frame the work as both hidden-message decoding and image-quality evaluation."
     ],
     related: ["Image quality", "SSIM", "Steganalysis"],
     Icon: Eye
@@ -604,10 +610,11 @@ const glossary: GlossaryTerm[] = [
     key: "ftir",
     term: "FTIR",
     summary:
-      "Fourier Transform Infrared Spectroscopy, a characterization technique used in material analysis.",
+      "FTIR means Fourier Transform Infrared Spectroscopy. It is a material-characterization method that studies how a sample absorbs infrared light.",
     details: [
-      "FTIR appears in the ZnO nanoparticle project.",
-      "The project used FTIR and UV-Spectroscopy for characterization."
+      "FTIR helps identify functional groups and chemical bonding patterns in a sample.",
+      "I used FTIR in my ZnO nanoparticle project.",
+      "I paired it with UV-Spectroscopy to support characterization and interaction studies."
     ],
     related: ["Spectroscopy", "ZnO nanoparticles", "Characterization"],
     Icon: Atom
@@ -616,10 +623,11 @@ const glossary: GlossaryTerm[] = [
     key: "llm",
     term: "LLM",
     summary:
-      "Large Language Model, a generative AI model used for language, reasoning, and structured content workflows.",
+      "LLM means Large Language Model. It is a generative AI model trained on large text corpora to work with language, reasoning, summarization, generation, and structured workflows.",
     details: [
-      "LLMs appear in the MythyaVerse internship and the portfolio's core skills.",
-      "The work involved Python-based LLM frameworks, Gemini reasoning models, OpenAI o1-mini, and educational content generation."
+      "In practice, I use LLMs as workflow tools: generating drafts, structuring information, reasoning through content, and creating learning material.",
+      "I used LLMs during my MythyaVerse internship with Python-based frameworks, Gemini reasoning models, and OpenAI o1-mini.",
+      "My work involved educational content generation, common-doubt generation, and creative presentation support."
     ],
     related: ["Generative AI", "Prompt engineering", "Python"],
     Icon: Brain
@@ -628,10 +636,11 @@ const glossary: GlossaryTerm[] = [
     key: "camera-link",
     term: "Camera Link",
     summary:
-      "A hardware-software communication interface referenced in the OCT automation work.",
+      "Camera Link is a hardware communication standard used to transfer image data from industrial or scientific cameras to a computer or frame grabber.",
     details: [
-      "The IISc internship included Camera Link integration for smoother hardware-software control.",
-      "It appears in the context of spectrometer automation and live scan acquisition."
+      "It matters in lab automation because imaging hardware needs reliable, high-speed communication with software.",
+      "I worked with Camera Link integration during my IISc OCT automation internship.",
+      "It appeared in the context of spectrometer automation, live scan acquisition, and smoother hardware-software control."
     ],
     related: ["OCT", "Hardware integration", "Automation"],
     Icon: CircuitBoard
@@ -640,10 +649,11 @@ const glossary: GlossaryTerm[] = [
     key: "ct-dna",
     term: "CT-DNA",
     summary:
-      "Calf thymus DNA, referenced in the ZnO nanoparticle interaction study.",
+      "CT-DNA means calf thymus DNA. It is commonly used as a model DNA sample in biochemical and interaction studies.",
     details: [
-      "The ZnO nanoparticle project studied interactions involving ZnO nanoparticles and CT-DNA.",
-      "It is connected to the nanoscience and spectroscopy side of the portfolio."
+      "Researchers often use CT-DNA because it provides a standard biological molecule for studying binding or interaction behavior.",
+      "I studied interactions involving ZnO nanoparticles and CT-DNA in my nanoparticle project.",
+      "This connects to the nanoscience and spectroscopy side of my work."
     ],
     related: ["ZnO nanoparticles", "Spectroscopy", "Interaction studies"],
     Icon: Atom
@@ -652,10 +662,11 @@ const glossary: GlossaryTerm[] = [
     key: "ocr",
     term: "OCR",
     summary:
-      "Optical Character Recognition, software that turns image-based text into machine-readable text.",
+      "OCR means Optical Character Recognition. It is software that detects text inside images or scanned documents and converts it into machine-readable text.",
     details: [
-      "The multilingual OCR project used a local Streamlit app to process languages including English, Hindi, and Tamil.",
-      "The project also included formatted text output and word highlighting in the original input file."
+      "OCR is useful when text is trapped inside screenshots, scans, PDFs, or image files.",
+      "I built a multilingual OCR project as a local Streamlit app for languages including English, Hindi, and Tamil.",
+      "I also added formatted text output and word highlighting in the original input file."
     ],
     related: ["Language systems", "Streamlit", "Text extraction"],
     Icon: BookOpen
@@ -732,10 +743,10 @@ export function PortfolioExperience() {
         id: `focus-${tag.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`,
         eyebrow: "Research Focus",
         title: tag,
-        summary: `${tag} is one of the focus areas used to frame Swarnim's portfolio.`,
+        summary: `${tag} is one of the focus areas I use to frame my portfolio.`,
         details: [
-          "It appears in the research profile as a recurring theme across projects, experience, and skills.",
-          "The site uses these focus tags as compact orientation points for recruiters and research collaborators."
+          "I use it as a recurring theme across my projects, experience, and skills.",
+          "These focus tags help recruiters and research collaborators understand how my work connects across different domains."
         ],
         tags: ["Research profile", "Portfolio theme"],
         Icon: Sparkles
@@ -751,10 +762,10 @@ export function PortfolioExperience() {
         eyebrow: group.title,
         title: skill.name,
         subtitle: "Working stack",
-        summary: `${skill.name} is listed in Swarnim's ${group.title.toLowerCase()} skill group.`,
+        summary: `${skill.name} is part of my ${group.title.toLowerCase()} skill group.`,
         details: [
-          "This item is part of the current portfolio skills inventory.",
-          "It connects to the broader mix of research, automation, data analysis, and software engineering shown across the portfolio."
+          "I include it in my current skills inventory because it supports my research and engineering work.",
+          "It connects to my broader mix of research, automation, data analysis, and software engineering."
         ],
         tags: [group.title, "Skill"],
         relatedTerms: skill.terms,
