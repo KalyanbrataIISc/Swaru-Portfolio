@@ -813,7 +813,8 @@ a {
 .experience-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  row-gap: 10px;
+  column-gap: 8px;
   margin-top: 15px;
 }
 
@@ -830,6 +831,20 @@ a {
   font-size: 0.82rem;
   font-weight: 700;
   overflow-wrap: anywhere;
+}
+
+.experience-actions {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 24px;
+}
+
+.experience-action {
+  flex: 1 1 210px;
+  min-width: min(100%, 190px);
 }
 
 .project-lab {

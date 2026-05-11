@@ -106,6 +106,13 @@ const navItems = [
 const cvHref = "/cv/swarnim-sharma-cv.pdf";
 const secReportHref = "/reports/sec-report.pdf";
 const greenSynthesisReportHref = "/reports/green-synthesis-project-report.pdf";
+const certificateHrefs = {
+  rimo: "/certificates/rimo-internship-certificate.pdf",
+  iisc: "/certificates/iisc-internship-summary.pdf",
+  mythyaverse: "/certificates/mythyaverse-internship-certificate.pdf",
+  iitRoorkee: "/certificates/iit-roorkee-internship-certificate.pdf",
+  amity: "/certificates/amity-internship-certificate.pdf"
+};
 
 const researchModes: QuickLookItem[] = [
   {
@@ -381,6 +388,11 @@ const experiences: ExperienceItem[] = [
       { label: "Location", value: "Tokyo, Japan" },
       { label: "Duration", value: "1 mo" }
     ],
+    action: {
+      label: "Download certificate",
+      href: certificateHrefs.rimo,
+      download: true
+    },
     Icon: BriefcaseBusiness
   },
   {
@@ -407,6 +419,11 @@ const experiences: ExperienceItem[] = [
       { label: "System", value: "Cobra 1600 OCT" },
       { label: "Duration", value: "3 mos" }
     ],
+    action: {
+      label: "Download internship summary",
+      href: certificateHrefs.iisc,
+      download: true
+    },
     Icon: BriefcaseBusiness
   },
   {
@@ -432,6 +449,11 @@ const experiences: ExperienceItem[] = [
       { label: "Audience", value: "Classes 6-12" },
       { label: "Duration", value: "2 mos" }
     ],
+    action: {
+      label: "Download certificate",
+      href: certificateHrefs.mythyaverse,
+      download: true
+    },
     Icon: BriefcaseBusiness
   },
   {
@@ -458,6 +480,11 @@ const experiences: ExperienceItem[] = [
       { label: "Signal", value: "EEG" },
       { label: "Duration", value: "3 mos" }
     ],
+    action: {
+      label: "Download certificate",
+      href: certificateHrefs.iitRoorkee,
+      download: true
+    },
     Icon: BriefcaseBusiness
   },
   {
@@ -484,6 +511,11 @@ const experiences: ExperienceItem[] = [
       { label: "Focus", value: "Cortical signaling" },
       { label: "Duration", value: "3 mos" }
     ],
+    action: {
+      label: "Download certificate",
+      href: certificateHrefs.amity,
+      download: true
+    },
     Icon: BriefcaseBusiness
   }
 ];
@@ -1125,12 +1157,9 @@ export function PortfolioExperience() {
               <div className="timeline-pin">
                 <span>{String(index + 1).padStart(2, "0")}</span>
               </div>
-              <motion.button
-                type="button"
+              <motion.div
                 className="glass-card experience-card"
-                onClick={() => openQuickLook(experience)}
                 whileHover={shouldReduceMotion ? undefined : { x: 5 }}
-                whileTap={shouldReduceMotion ? undefined : { scale: 0.995 }}
               >
                 <div className="experience-topline">
                   <BriefcaseBusiness size={22} />
@@ -1145,7 +1174,23 @@ export function PortfolioExperience() {
                   {experience.credential ? <span>{experience.credential}</span> : null}
                   <span>{experience.tags.join(", ")}</span>
                 </div>
-              </motion.button>
+                <div className="experience-actions">
+                  {experience.action ? (
+                    <a className="primary-action experience-action" href={experience.action.href} download>
+                      {experience.action.label}
+                      <Download size={18} />
+                    </a>
+                  ) : null}
+                  <button
+                    type="button"
+                    className="secondary-action experience-action"
+                    onClick={() => openQuickLook(experience)}
+                  >
+                    More details
+                    <ChevronRight size={18} />
+                  </button>
+                </div>
+              </motion.div>
             </article>
           ))}
         </div>
