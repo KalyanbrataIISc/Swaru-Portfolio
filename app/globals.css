@@ -959,6 +959,19 @@ a {
   line-height: 1.28;
 }
 
+.project-actions {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 26px;
+}
+
+.project-action {
+  min-width: min(100%, 184px);
+}
+
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));

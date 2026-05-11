@@ -14,6 +14,7 @@ import {
   CircuitBoard,
   Cpu,
   Database,
+  Download,
   Eye,
   GraduationCap,
   Linkedin,
@@ -47,6 +48,8 @@ type QuickLookItem = {
   action?: {
     label: string;
     href: string;
+    download?: boolean;
+    external?: boolean;
   };
   Icon: LucideIcon;
 };
@@ -99,6 +102,10 @@ const navItems = [
   { label: "Skills", id: "skills" },
   { label: "Contact", id: "contact" }
 ];
+
+const cvHref = "/cv/swarnim-sharma-cv.pdf";
+const secReportHref = "/reports/sec-report.pdf";
+const greenSynthesisReportHref = "/reports/green-synthesis-project-report.pdf";
 
 const researchModes: QuickLookItem[] = [
   {
@@ -291,6 +298,11 @@ const projects: ProjectItem[] = [
       { label: "Methods", value: "LSB + SSIS" },
       { label: "Metrics", value: "PSNR / SSIM" }
     ],
+    action: {
+      label: "Download SEC report",
+      href: secReportHref,
+      download: true
+    },
     Icon: ScanSearch
   },
   {
@@ -312,6 +324,11 @@ const projects: ProjectItem[] = [
       { label: "Languages", value: "English / Hindi / Tamil" },
       { label: "Feature", value: "Word highlighting" }
     ],
+    action: {
+      label: "View GitHub repository",
+      href: "https://github.com/Swarnim913/OCR",
+      external: true
+    },
     Icon: Eye
   },
   {
@@ -333,6 +350,11 @@ const projects: ProjectItem[] = [
       { label: "Interaction", value: "CT-DNA" },
       { label: "Methods", value: "FTIR / UV" }
     ],
+    action: {
+      label: "Download project report",
+      href: greenSynthesisReportHref,
+      download: true
+    },
     Icon: Atom
   }
 ];
@@ -927,6 +949,10 @@ export function PortfolioExperience() {
               <Mail size={18} />
               swarnim175@cic.du.ac.in
             </a>
+            <a href={cvHref} download className="secondary-action">
+              <Download size={18} />
+              Download CV
+            </a>
           </div>
 
           <div className="signal-grid" aria-label="Research signals">
@@ -1154,13 +1180,11 @@ export function PortfolioExperience() {
             })}
           </div>
 
-          <motion.button
-            type="button"
+          <motion.div
             className="project-detail"
             id="project-detail"
             role="tabpanel"
             aria-labelledby={`project-tab-${selected.id}`}
-            onClick={() => openQuickLook(selected)}
             key={selected.id}
             initial={shouldReduceMotion ? false : { opacity: 0, y: 12 }}
             animate={shouldReduceMotion ? undefined : { opacity: 1, y: 0 }}
@@ -1180,7 +1204,29 @@ export function PortfolioExperience() {
                 </span>
               ))}
             </div>
-          </motion.button>
+            <div className="project-actions">
+              {selected.action ? (
+                <a
+                  className="primary-action project-action"
+                  href={selected.action.href}
+                  download={selected.action.download}
+                  target={selected.action.external ? "_blank" : undefined}
+                  rel={selected.action.external ? "noreferrer" : undefined}
+                >
+                  {selected.action.label}
+                  {selected.action.download ? <Download size={18} /> : <ArrowUpRight size={18} />}
+                </a>
+              ) : null}
+              <button
+                type="button"
+                className="secondary-action project-action"
+                onClick={() => openQuickLook(selected)}
+              >
+                More details
+                <ChevronRight size={18} />
+              </button>
+            </div>
+          </motion.div>
         </div>
       </motion.section>
 
@@ -1232,6 +1278,10 @@ export function PortfolioExperience() {
             <a href="https://www.linkedin.com/in/swarnim-sharma-60333a238" target="_blank" rel="noreferrer">
               <Linkedin size={20} />
               LinkedIn
+            </a>
+            <a href={cvHref} download>
+              <Download size={20} />
+              Download CV
             </a>
           </div>
         </div>
@@ -1329,7 +1379,13 @@ export function PortfolioExperience() {
               ) : null}
 
               {quickLook.action ? (
-                <a className="quicklook-action" href={quickLook.action.href}>
+                <a
+                  className="quicklook-action"
+                  href={quickLook.action.href}
+                  download={quickLook.action.download}
+                  target={quickLook.action.external ? "_blank" : undefined}
+                  rel={quickLook.action.external ? "noreferrer" : undefined}
+                >
                   {quickLook.action.label}
                   <ArrowUpRight size={16} />
                 </a>
